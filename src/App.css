@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    overflow-x: hidden;
+
+}
+.gradient{
+    background: rgb(255,249,112);
+    background: radial-gradient(circle, rgba(255,249,112,1) 0%, rgba(22,29,41,1) 45%, rgba(0,8,20,1) 89%);
+}
+.homepage_bg{
+    background-image: url("./assets/Images/bghome.svg");
+}
